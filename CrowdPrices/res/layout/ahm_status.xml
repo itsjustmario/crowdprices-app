@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<LinearLayout
+	    android:id="@+id/btnContainer"
+	    android:layout_width="fill_parent"
+ 		android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentLeft="true" 		
+ 		android:orientation="horizontal" >
+
+		<Button
+		    android:id="@+id/btnBack3"
+		    style="@style/Widget.Sherlock.Button.Small"
+		    android:layout_width="0dip"
+		    android:layout_height="wrap_content"
+		    android:layout_marginRight="1dip"
+		    android:layout_weight="1"
+		    android:background="#ab162b"
+		    android:text="@string/btnBack"
+		    android:textAppearance="?android:attr/textAppearanceLarge" />
+		<!-- 
+	    <Button
+	        android:id="@+id/btnSubmit"
+	        style="@style/Widget.Sherlock.Button.Small"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@color/androidgreen"
+	        android:layout_weight="1"
+	        android:layout_marginLeft="1dip"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:text="@string/btnSubmit" />
+	     -->
+	</LinearLayout>
+
+    <TextView
+        android:id="@+id/SavedOnDevice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="35dp"
+        android:text="Saved on device"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/Transmitted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/SavedOnDevice"
+        android:layout_below="@+id/SavedOnDevice"
+        android:layout_marginTop="20dp"
+        android:text="Transmitted"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/StatusDevice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/SavedOnDevice"
+        android:layout_alignBottom="@+id/SavedOnDevice"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/green"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/StatusTransmission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Transmitted"
+        android:layout_alignBottom="@+id/Transmitted"
+        android:layout_alignRight="@+id/StatusDevice"
+        android:text="READY"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/green" />
+
+<Button
+    android:id="@+id/btnSubmit"
+    style="@style/Widget.Sherlock.Button.Small"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/btnContainer"
+    android:layout_alignLeft="@+id/Transmitted"
+    android:layout_alignRight="@+id/StatusTransmission"
+    android:layout_marginBottom="5dp"
+    android:background="@color/androidgreen"
+    android:text="@string/btnSubmitServer"
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+<Button
+    android:id="@+id/btnSave"
+    style="@style/Widget.Sherlock.Button.Small"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/btnSubmit"
+    android:layout_alignLeft="@+id/btnSubmit"
+    android:layout_alignRight="@+id/btnSubmit"
+    android:layout_marginBottom="10dp"
+    android:background="@color/light_blue"
+    android:text="@string/btnSave"
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+<Button
+    android:id="@+id/btnClear"
+    style="@style/Widget.Sherlock.Button.Small"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/btnSave"
+    android:layout_alignLeft="@+id/btnSave"
+    android:layout_alignRight="@+id/btnSubmit"
+    android:layout_marginBottom="10dp"
+    android:background="@color/red"
+    android:text="CLEAR ENTRY"
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+</RelativeLayout>

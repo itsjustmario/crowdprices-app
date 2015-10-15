@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray"
+    android:id="@+id/llArchive"
+    tools:context=".CrowdMain" >
+
+    <!--
+         The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc.
+    -->
+
+    <ListView        
+        android:id="@+id/lvArchive"        
+        android:minHeight="200dp"        
+        android:background="@color/white"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >        
+    </ListView>
+</LinearLayout>

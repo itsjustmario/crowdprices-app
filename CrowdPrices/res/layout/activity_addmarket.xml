@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+<ScrollView
+    android:id="@+id/svContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@+id/btnSave"
+    android:orientation="vertical" >
+    
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+        <TextView
+        android:id="@+id/txtCity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"                
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"         	    
+        android:text="@string/tCity"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+     
+    <Spinner
+        android:id="@+id/spinnerCity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtCity"        
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:prompt="@string/tCity"        
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	<TextView
+        android:id="@+id/txtMarket"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"                
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"         	    
+        android:layout_below="@+id/spinnerCity"
+        android:text="@string/tMarketName"
+        android:textAppearance="?android:attr/textAppearanceSmall" />    
+    
+	<EditText
+	    android:id="@+id/txtMarketName"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/txtMarket"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="@string/tMarketName"
+	    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	<TextView
+	    android:id="@+id/txtCoordinates"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/txtMarketName"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"         	    
+	    android:text="@string/tCoordinates"
+	    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+	<EditText
+	    android:id="@+id/etCLat"
+	    android:layout_width="120dip"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/txtCoordinates"
+	    android:layout_marginLeft="10dp"
+	    android:ems="10"
+	    android:hint="@string/tLat" />
+
+	<EditText
+	    android:id="@+id/etCLon"
+	    android:layout_width="120dip"
+	    android:layout_height="wrap_content"	   
+	    android:layout_below="@+id/txtCoordinates"
+	    android:layout_toRightOf="@+id/etCLat"
+	    android:ems="10"
+	    android:hint="@string/tLon" />
+
+	<ImageButton
+	    android:id="@+id/btnMap"
+	    android:layout_width="35dp"
+	    android:layout_height="35dp"
+	    android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"         	    	   
+	    android:layout_below="@+id/txtCoordinates"
+	    android:layout_toRightOf="@+id/etCLon"
+	    android:background="@android:color/transparent"
+	    android:gravity="center"
+	    android:scaleType="fitCenter"
+	    android:src="@drawable/mapediting" />
+			
+</RelativeLayout>
+</ScrollView>
+	<Button
+	    android:id="@+id/btnSave"
+	    style="@style/Widget.Sherlock.Button.Small"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentLeft="true"
+	    android:background="@color/blue"
+	    android:text="@string/btnSave"
+	    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

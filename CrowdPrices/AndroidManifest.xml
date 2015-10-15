@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.faostat.crowdprices.rc"
+    android:versionCode="28"
+    android:versionName="1.91 RC" >
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="18" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.STORAGE"  />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />    
+    <!-- <uses-feature android:glEsVersion="0x00020000" android:required="true"/>  --> 
+	<application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"        
+        android:label="@string/app_name" >
+        <activity
+            android:name="org.faostat.crowdprices.CrowdLogin"             
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Sherlock.Light.NoActionBar" >    
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>                        
+        </activity>
+	    <activity
+            android:name="org.faostat.crowdprices.CrowdSplash"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Sherlock.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="org.faostat.crowdprices.forestry.CrowdForestry"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Crowd Forestry"
+            android:icon="@drawable/foresty_logo"
+            android:theme="@style/Theme.Sherlock.Light" >
+            <!-- 
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name="org.faostat.crowdprices.ahm.CrowdAnimalHealth"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Animal Health Monitoring"
+            android:icon="@drawable/ahm_logo"
+            android:theme="@style/Theme.Sherlock.Light" >
+            <!-- 
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        
+        <activity
+            android:name="org.faostat.crowdprices.CrowdMain"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Sherlock.Light" >
+        </activity>
+        <activity
+            android:name="org.faostat.crowdprices.CrowdMaps"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Sherlock.Light.NoActionBar" >
+        </activity>	    
+        <activity
+            android:name="org.faostat.crowdprices.CrowdAdd"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:windowSoftInputMode="adjustPan"
+            android:label="@string/app_name"            
+            android:theme="@style/Theme.ViewPageIndicator"
+            >
+        </activity>
+         <activity
+            android:name="org.faostat.crowdprices.CrowdAddData"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:windowSoftInputMode="adjustPan"
+            android:label="@string/app_name"            
+            android:theme="@style/Theme.ViewPageIndicator"
+            >
+        </activity>
+        <activity
+            android:name="org.faostat.crowdprices.CrowdArchive"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Sherlock.Light" >
+        </activity>
+        <activity
+            android:name="org.faostat.crowdprices.CrowdAddCity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:windowSoftInputMode="adjustPan"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Sherlock.Light" >
+        </activity>
+        <activity
+            android:name="org.faostat.crowdprices.CrowdAddMarket"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:windowSoftInputMode="adjustPan"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Sherlock.Light" >
+        </activity>
+        <activity
+            android:name="org.faostat.crowdprices.CrowdAddVendor"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:windowSoftInputMode="adjustPan"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Sherlock.Light" >
+        </activity>
+        <activity
+            android:name="org.faostat.crowdprices.CrowdDemo"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Sherlock.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="org.faostat.crowdprices.CrowdSurveyManagement"             
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:windowSoftInputMode="adjustPan"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Sherlock.Light" >
+        </activity>
+        <activity
+            android:name="org.faostat.crowdprices.CrowdTemplates"             
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:windowSoftInputMode="adjustPan"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Sherlock.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="org.faostat.crowdprices.CrowdTemplateList"             
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:windowSoftInputMode="adjustPan"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Sherlock.Light" >
+        </activity>
+        <activity
+            android:name="org.faostat.crowdprices.CrowdAddTemplate"             
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:windowSoftInputMode="adjustPan"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Sherlock.Light" >
+        </activity>
+        <activity
+            android:name="org.faostat.crowdprices.CrowdSettings"             
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:windowSoftInputMode="adjustPan"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Sherlock.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="org.faostat.crowdprices.network.CrowdInAppUpdate"             
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:windowSoftInputMode="adjustPan"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Sherlock.Light.NoActionBar" >
+        </activity>
+        </application>
+
+</manifest>

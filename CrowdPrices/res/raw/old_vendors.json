@@ -1,0 +1,234 @@
+{
+    "Vendors":[
+        {
+        "vId":"0",
+        "mId":"0",
+        "cId":"0",
+        "vSize":"Big",
+        "vName":"Vendor of Nairobi",
+        "vLat":"-1.28333",
+        "vLon":"36.81667",
+        "vShown":true
+        },
+        {
+        "vId":"1",
+        "mId":"1",
+        "cId":"1",
+        "vSize":"Big",
+        "vName":"Vendor of Mombasa",
+        "vLat":"-4.05466",
+        "vLon":"39.66359",
+        "vShown":true
+        },
+        {
+        "vId":"2",
+        "mId":"2",
+        "cId":"2",
+        "vSize":"Big",
+        "vName":"Vendor of Kisumu",
+        "vLat":"-0.10221",
+        "vLon":"34.76171",
+        "vShown":true
+        },
+        {
+        "vId":"3",
+        "mId":"3",
+        "cId":"3",
+        "vSize":"Big",
+        "vName":"Vendor of Nakuru",
+        "vLat":"-0.28333",
+        "vLon":"36.06667",
+        "vShown":true
+        },
+        {
+        "vId":"4",
+        "mId":"4",
+        "cId":"4",
+        "vSize":"Big",
+        "vName":"Vendor of Eldoret",
+        "vLat":"0.52036",
+        "vLon":"35.26992",
+        "vShown":true
+        },
+        {
+        "vId":"5",
+        "mId":"5",
+        "cId":"5",
+        "vSize":"Big",
+        "vName":"Vendor of Malindi",
+        "vLat":"-3.21799",
+        "vLon":"40.11692",
+        "vShown":true
+        },
+        {
+        "vId":"6",
+        "mId":"6",
+        "cId":"6",
+        "vSize":"Big",
+        "vName":"Vendor of Marimanti",
+        "vLat":"-0.11667",
+        "vLon":"37.95",
+        "vShown":true
+        },
+        {
+        "vId":"7",
+        "mId":"7",
+        "cId":"7",
+        "vSize":"Big",
+        "vName":"Vendor of Imenti",
+        "vLat":"-0.00206",
+        "vLon":"37.59484",
+        "vShown":true
+        },
+        {
+        "vId":"8",
+        "mId":"8",
+        "cId":"8",
+        "vSize":"Big",
+        "vName":"Vendor of Nyahururu",
+        "vLat":"0.05",
+        "vLon":"36.3",
+        "vShown":true
+        },
+        {
+        "vId":"9",
+        "mId":"9",
+        "cId":"9",
+        "vSize":"Big",
+        "vName":"Vendor of Kitale",
+        "vLat":"1.01572",
+        "vLon":"35.00622",
+        "vShown":true
+        },
+        {
+        "vId":"10",
+        "mId":"10",
+        "cId":"10",
+        "vSize":"Big",
+        "vName":"Vendor of Kakamega",
+        "vLat":"0.28422",
+        "vLon":"34.75228",
+        "vShown":true
+        },
+        {
+        "vId":"11",
+        "mId":"11",
+        "cId":"11",
+        "vSize":"Big",
+        "vName":"Vendor of Machakos",
+        "vLat":"-1.28333",
+        "vLon":"37.41667",
+        "vShown":true
+        },
+        {
+        "vId":"12",
+        "mId":"12",
+        "cId":"12",
+        "vSize":"Big",
+        "vName":"Vendor of Kisii",
+        "vLat":"-0.74428",
+        "vLon":"34.83014",
+        "vShown":true
+        },
+        {
+        "vId":"13",
+        "mId":"13",
+        "cId":"13",
+        "vSize":"Big",
+        "vName":"Vendor of Busia",
+        "vLat":"0.36186",
+        "vLon":"34.16684",
+        "vShown":true
+        },
+        {
+        "vId":"14",
+        "mId":"14",
+        "cId":"14",
+        "vSize":"Big",
+        "vName":"Vendor of Taveta",
+        "vLat":"-3.40193",
+        "vLon":"38.36402",
+        "vShown":true
+        },
+        {
+        "vId":"15",
+        "mId":"15",
+        "cId":"15",
+        "vSize":"Big",
+        "vName":"Vendor of Loitokitok",
+        "vLat":"-2.90103",
+        "vLon":"37.51816",
+        "vShown":true
+        },
+        {
+        "vId":"16",
+        "mId":"16",
+        "cId":"16",
+        "vSize":"Big",
+        "vName":"Vendor of Embu",
+        "vLat":"-0.425",
+        "vLon":"37.531",
+        "vShown":true
+        },
+        {
+        "vId":"17",
+        "mId":"17",
+        "cId":"17",
+        "vSize":"Big",
+        "vName":"Vendor of Kitui",
+        "vLat":"-1.835",
+        "vLon":"38.451",
+        "vShown":true
+        },
+        {
+        "vId":"18",
+        "mId":"18",
+        "cId":"18",
+        "vSize":"Big",
+        "vName":"Vendor of Tharaka North",
+        "vLat":"-0.1",
+        "vLon":"38.16667",
+        "vShown":true
+        },
+        {
+        "vId":"19",
+        "mId":"19",
+        "cId":"19",
+        "vSize":"Big",
+        "vName":"Vendor of Chwele",
+        "vLat":"0.41809",
+        "vLon":"34.5897",
+        "vShown":true
+        },
+        {
+        "vId":"20",
+        "mId":"20",
+        "cId":"20",
+        "vSize":"Big",
+        "vName":"Vendor of Tharaka S",
+        "vLat":"-0.25",
+        "vLon":"37.91667",
+        "vShown":true
+        },
+        {
+        "vId":"21",
+        "mId":"21",
+        "cId":"21",
+        "vSize":"Big",
+        "vName":"Vendor of Isiolo",
+        "vLat":"0.35462",
+        "vLon":"37.58218",
+        "vShown":true
+        },
+        {
+        "vId":"22",
+        "mId":"22",
+        "cId":"22",
+        "vSize":"Big",
+        "vName":"Vendor of Kajiado",
+        "vLat":"-1.85238",
+        "vLon":"36.77683",
+        "vShown":true
+        }
+        ]
+}

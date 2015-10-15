@@ -1,0 +1,25 @@
+{
+    "Tabs":[
+        {
+        "tId":"0",
+        "tName":"Location",
+        "tOrder":0,
+        "tFile":"t_location.json",
+        "tLayout":"view_locationtab"
+        },
+        {
+        "tId":"1",
+        "tName":"Survey",
+        "tOrder":1,
+        "tFile":"t_survey.json",
+        "tLayout":"view_surveytab"
+        },
+        {
+        "tId":"2",
+        "tName":"Status",
+        "tOrder":2,
+        "tFile":"t_status.json",
+        "tLayout":"view_statustab"
+        },
+	]
+}

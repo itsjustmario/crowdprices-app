@@ -1,0 +1,298 @@
+{
+	"Varieties":[
+		{
+			"varID":"0",
+			"varName":"Variety of Avocado",
+			"varDiv":90,
+			"varShown":true,
+			"varOf":0
+		},
+		{
+			"varID":"1",
+			"varName":"Variety of Beans Canadian",
+			"varDiv":90,
+			"varShown":true,
+			"varOf":1
+		},
+		{
+			"varID":"2",
+			"varName":"Variety of Beans Dolichos (Njahi)",
+			"varDiv":90,
+			"varShown":true,
+			"varOf":2
+		},
+		{
+			"varID":"3",
+			"varName":"Variety of Beans Mwitemania",
+			"varDiv":90,
+			"varShown":true,
+			"varOf":3
+		},
+		{
+			"varID":"4",
+			"varName":"Variety of Beans Rosecoco",
+			"varDiv":90,
+			"varShown":true,
+			"varOf":4
+		},
+		{
+			"varID":"5",
+			"varName":"Variety of Brinjals",
+			"varDiv":44,
+			"varShown":true,
+			"varOf":5
+		},
+		{
+			"varID":"6",
+			"varName":"Variety of Cabbages",
+			"varDiv":126,
+			"varShown":true,
+			"varOf":6
+		},
+		{
+			"varID":"7",
+			"varName":"Variety of Capsicums",
+			"varDiv":50,
+			"varShown":true,
+			"varOf":7
+		},
+		{
+			"varID":"8",
+			"varName":"Variety of Carrots",
+			"varDiv":138,
+			"varShown":true,
+			"varOf":8
+		},
+		{
+			"varID":"9",
+			"varName":"Variety of Cassava Fresh",
+			"varDiv":99,
+			"varShown":true,
+			"varOf":9
+		},
+		{
+			"varID":"10",
+			"varName":"Variety of Cauliflower",
+			"varDiv":39,
+			"varShown":true,
+			"varOf":10
+		},
+		{
+			"varID":"11",
+			"varName":"Variety of Chillies",
+			"varDiv":38,
+			"varShown":true,
+			"varOf":11
+		},
+		{
+			"varID":"12",
+			"varName":"Variety of Cooking Bananas",
+			"varDiv":22,
+			"varShown":true,
+			"varOf":12
+		},
+		{
+			"varID":"13",
+			"varName":"Variety of Cowpeas",
+			"varDiv":90,
+			"varShown":true,
+			"varOf":13
+		},
+		{
+			"varID":"14",
+			"varName":"Variety of Cucumber",
+			"varDiv":50,
+			"varShown":true,
+			"varOf":14
+		},
+		{
+			"varID":"15",
+			"varName":"Variety of Dry Maize",
+			"varDiv":90,
+			"varShown":true,
+			"varOf":15
+		},
+		{
+			"varID":"16",
+			"varName":"Variety of Eggs",
+			"varDiv":1,
+			"varShown":true,
+			"varOf":16
+		},
+		{
+			"varID":"17",
+			"varName":"Variety of Finger Millet",
+			"varDiv":90,
+			"varShown":true,
+			"varOf":17
+		},
+		{
+			"varID":"18",
+			"varName":"Variety of Fresh Peas",
+			"varDiv":51,
+			"varShown":true,
+			"varOf":18
+		},
+		{
+			"varID":"19",
+			"varName":"Variety of Green Gram",
+			"varDiv":90,
+			"varShown":true,
+			"varOf":19
+		},
+		{
+			"varID":"20",
+			"varName":"Variety of Green Maize",
+			"varDiv":115,
+			"varShown":true,
+			"varOf":20
+		},
+		{
+			"varID":"21",
+			"varName":"Variety of Groundnuts",
+			"varDiv":110,
+			"varShown":true,
+			"varOf":21
+		},
+		{
+			"varID":"22",
+			"varName":"Variety of Kales",
+			"varDiv":50,
+			"varShown":true,
+			"varOf":22
+		},
+		{
+			"varID":"23",
+			"varName":"Variety of Lemons",
+			"varDiv":95,
+			"varShown":true,
+			"varOf":23
+		},
+		{
+			"varID":"24",
+			"varName":"Variety of Lettuce",
+			"varDiv":51,
+			"varShown":true,
+			"varOf":24
+		},
+		{
+			"varID":"25",
+			"varName":"Variety of Limes",
+			"varDiv":13,
+			"varShown":true,
+			"varOf":25
+		},
+		{
+			"varID":"26",
+			"varName":"Variety of Mangoes Local",
+			"varDiv":126,
+			"varShown":true,
+			"varOf":26
+		},
+		{
+			"varID":"27",
+			"varName":"Variety of Mangoes Ngowe",
+			"varDiv":25,
+			"varShown":true,
+			"varOf":27
+		},
+		{
+			"varID":"28",
+			"varName":"Variety of Mwezi Moja",
+			"varDiv":90,
+			"varShown":true,
+			"varOf":28
+		},
+		{
+			"varID":"29",
+			"varName":"Variety of Onions Dry",
+			"varDiv":142,
+			"varShown":true,
+			"varOf":29
+		},
+		{
+			"varID":"30",
+			"varName":"Variety of Oranges",
+			"varDiv":93,
+			"varShown":true,
+			"varOf":30
+		},
+		{
+			"varID":"31",
+			"varName":"Variety of Passion Fruits",
+			"varDiv":57,
+			"varShown":true,
+			"varOf":31
+		},
+		{
+			"varID":"32",
+			"varName":"Variety of Pawpaw",
+			"varDiv":54,
+			"varShown":true,
+			"varOf":32
+		},
+		{
+			"varID":"33",
+			"varName":"Variety of Pineapples",
+			"varDiv":13,
+			"varShown":true,
+			"varOf":33
+		},
+		{
+			"varID":"34",
+			"varName":"Variety of Red Irish Potatoes",
+			"varDiv":110,
+			"varShown":true,
+			"varOf":34
+		},
+		{
+			"varID":"35",
+			"varName":"Variety of Ripe Bananas",
+			"varDiv":14,
+			"varShown":true,
+			"varOf":35
+		},
+		{
+			"varID":"36",
+			"varName":"Variety of Sorghum",
+			"varDiv":90,
+			"varShown":true,
+			"varOf":36
+		},
+		{
+			"varID":"37",
+			"varName":"Variety of Spring Onions",
+			"varDiv":142,
+			"varShown":true,
+			"varOf":37
+		},
+		{
+			"varID":"38",
+			"varName":"Variety of Sweet Potatoes",
+			"varDiv":98,
+			"varShown":true,
+			"varOf":38
+		},
+		{
+			"varID":"39",
+			"varName":"Variety of Tomatoes",
+			"varDiv":64,
+			"varShown":true,
+			"varOf":39
+		},
+		{
+			"varID":"40",
+			"varName":"Variety of Wheat",
+			"varDiv":90,
+			"varShown":true,
+			"varOf":40
+		},
+		{
+			"varID":"41",
+			"varName":"Variety of White Irish Potatoes",
+			"varDiv":110,
+			"varShown":true,
+			"varOf":41
+		}
+	]
+}

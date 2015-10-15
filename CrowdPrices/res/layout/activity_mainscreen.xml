@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".CrowdMain" >
+
+    <!--
+         The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc.
+    -->
+
+    <Button
+        android:id="@+id/fullscreen_adddata"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="@+string/menu_adddata"        
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:background="@color/blue_lvl1"
+        android:layout_weight="0.25"
+        android:src="@color/blue_lvl1"        
+        android:textStyle="bold" />
+    
+    <Button
+        android:id="@+id/fullscreen_archive"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_below="@+id/fullscreen_adddata"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="@+string/menu_archive"
+        android:textColor="@color/white"
+        android:background="@color/blue_lvl2"
+        android:layout_weight="0.25"
+		android:src="@color/blue_lvl2"        
+        android:textSize="28sp"
+        android:textStyle="bold" />
+    
+	<Button
+        android:id="@+id/fullscreen_templates"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_below="@+id/fullscreen_archive"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="@+string/menu_templates"
+        android:textColor="@color/white"
+        android:background="@color/blue_lvl3"
+        android:layout_weight="0.25"
+        android:textSize="28sp"
+        android:textStyle="bold" />    
+
+	<Button
+        android:id="@+id/fullscreen_management"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_below="@+id/fullscreen_templates"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="@+string/menu_management"
+        android:textColor="@color/white"
+        android:background="@color/blue_lvl4"
+        android:layout_weight="0.25"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+    	
+    <!--
+         This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows.
+    -->
+
+   
+
+</LinearLayout>

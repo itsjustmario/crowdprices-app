@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+   <style name="Theme.Styled" parent="Theme.Sherlock.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="android:actionBarStyle" tools:ignore="NewApi" >@style/Widget.Styled.ActionBar</item>
+    </style>
+    <style name="Theme.ViewPageIndicator" parent="Theme.Styled">
+       <item name="vpiTabPageIndicatorStyle">@style/CustomTabPageIndicator</item>
+    </style>    
+    <style name="Widget.Styled.ActionBar" parent="Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+        <item name="titleTextStyle">@style/TitleText</item>
+        <item name="android:titleTextStyle" tools:ignore="NewApi">@style/TitleText</item>
+    </style>    
+    <!-- Title on action bar -->
+     <style name="TitleText" >
+        <item name="android:textColor">#FFFF0000</item>        
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/svLocation"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbarAlwaysDrawVerticalTrack="true" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/txtCity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:text="CURRENT LOCATION"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/etCLon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtCity"
+			    
+			    android:layout_toRightOf="@+id/etCLat"                
+                android:ems="10"
+                android:hint="@string/tLon" >
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/etCLat"
+                android:layout_below="@+id/txtCity"
+                android:layout_width="170dip"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/tLat" />
+
+            <Button
+                android:id="@+id/btnGetGPS"
+                android:layout_below="@+id/etCLat"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="GET CURRENT POSITION" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="300dp"
+                android:layout_below="@+id/btnGetGPS"
+                android:orientation="vertical" >
+
+                <org.osmdroid.views.MapView
+                    android:id="@+id/osmMarket"
+                    android:layout_width="fill_parent"
+                    android:layout_height="300dp"
+                    android:visibility="visible" >
+                </org.osmdroid.views.MapView>
+            </LinearLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnNext1"
+        style="@style/Widget.Sherlock.Button.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#ab162b"
+        android:text="NEXT"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

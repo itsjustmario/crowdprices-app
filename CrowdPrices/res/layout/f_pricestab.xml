@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<Button
+		        android:id="@+id/btnAddCommodity"
+		        style="@style/Widget.Sherlock.Button.Small"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentTop="true"
+		        android:layout_alignParentLeft="true"
+		        android:background="#34fe99"
+		        android:textAppearance="?android:attr/textAppearanceLarge"
+		        android:text="ADD ELEMENT" />	
+    <ScrollView
+        android:id="@+id/svSurvey"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:id="@+id/llSurvey"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+ 
+         </LinearLayout>
+    </ScrollView>
+	<LinearLayout
+	    android:layout_width="fill_parent"
+ 		android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentLeft="true" 		
+ 		android:orientation="horizontal" >	    
+			<Button
+			    android:id="@+id/btnBack2"
+			    style="@style/Widget.Sherlock.Button.Small"
+			    android:layout_width="match_parent"			    
+			    android:layout_height="wrap_content"
+			    android:layout_marginRight="1dip"			    
+			    android:background="#00edb6"
+			    android:text="BACK"
+			    android:layout_weight="1"
+			    android:textAppearance="?android:attr/textAppearanceLarge" />
+			<Button
+			    android:id="@+id/btnNext2"
+			    style="@style/Widget.Sherlock.Button.Small"
+			    android:layout_width="match_parent"			    
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="1dip"
+			    android:background="#00edb6"
+			    android:text="NEXT"
+			    android:layout_weight="1"
+			    android:textAppearance="?android:attr/textAppearanceLarge" />
+			</LinearLayout>
+</RelativeLayout>

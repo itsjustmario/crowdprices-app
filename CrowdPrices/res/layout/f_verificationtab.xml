@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/svLocation"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbarAlwaysDrawVerticalTrack="true" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/txtNation"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:text="RESOURCE VERIFICATION"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ToggleButton
+                android:id="@+id/spinnerNation"                
+                android:checked="true" 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtNation"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textOn="FOREST COVER"
+            	android:textOff="OTHER LAND USE"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/txtCity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/spinnerNation"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/fT1"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <Spinner
+                android:id="@+id/spinnerCity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtCity"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:prompt="@string/fT1"
+                android:entries="@array/fS1"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/txtMarket"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/spinnerCity"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/fT2"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <Spinner
+                android:id="@+id/spinnerOther"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtMarket"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:prompt="@string/fT2"
+                android:entries="@array/fS2"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </RelativeLayout>
+    </ScrollView>
+	
+		<Button
+		    android:id="@+id/btnNext1"
+		    style="@style/Widget.Sherlock.Button.Small"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentBottom="true"
+		    android:layout_alignParentLeft="true"
+		    android:background="#00edb6"
+		    android:text="NEXT"
+		    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

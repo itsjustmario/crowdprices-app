@@ -1,0 +1,142 @@
+{
+    "Markets":[
+        {
+        "mId":"0",
+        "cId":"0",
+        "mName":"Market of Nairobi",
+        "mShown":true
+        },
+        {
+        "mId":"1",
+        "cId":"1",
+        "mName":"Market of Mombasa",
+        "mShown":true
+        },
+        {
+        "mId":"2",
+        "cId":"2",
+        "mName":"Market of Kisumu",
+        "mShown":true
+        },
+        {
+        "mId":"3",
+        "cId":"3",
+        "mName":"Market of Nakuru",
+        "mShown":true
+        },
+        {
+        "mId":"4",
+        "cId":"4",
+        "mName":"Market of Eldoret",
+        "mShown":true
+        },
+        {
+        "mId":"5",
+        "cId":"5",
+        "mName":"Market of Malindi",
+        "mShown":true
+        },
+        {
+        "mId":"6",
+        "cId":"6",
+        "mName":"Market of Marimanti",
+        "mShown":true
+        },
+        {
+        "mId":"7",
+        "cId":"7",
+        "mName":"Market of Imenti",
+        "mShown":true
+        },
+        {
+        "mId":"8",
+        "cId":"8",
+        "mName":"Market of Nyahururu",
+        "mShown":true
+        },
+        {
+        "mId":"9",
+        "cId":"9",
+        "mName":"Market of Kitale",
+        "mShown":true
+        },
+        {
+        "mId":"10",
+        "cId":"10",
+        "mName":"Market of Kakamega",
+        "mShown":true
+        },
+        {
+        "mId":"11",
+        "cId":"11",
+        "mName":"Market of Machakos",
+        "mShown":true
+        },
+        {
+        "mId":"12",
+        "cId":"12",
+        "mName":"Market of Kisii",
+        "mShown":true
+        },
+        {
+        "mId":"13",
+        "cId":"13",
+        "mName":"Market of Busia",
+        "mShown":true
+        },
+        {
+        "mId":"14",
+        "cId":"14",
+        "mName":"Market of Taveta",
+        "mShown":true
+        },
+        {
+        "mId":"15",
+        "cId":"15",
+        "mName":"Market of Loitokitok",
+        "mShown":true
+        },
+        {
+        "mId":"16",
+        "cId":"16",
+        "mName":"Market of Embu",
+        "mShown":true
+        },
+        {
+        "mId":"17",
+        "cId":"17",
+        "mName":"Market of Kitui",
+        "mShown":true
+        },
+        {
+        "mId":"18",
+        "cId":"18",
+        "mName":"Market of Tharaka North",
+        "mShown":true
+        },
+        {
+        "mId":"19",
+        "cId":"19",
+        "mName":"Market of Chwele",
+        "mShown":true
+        },
+        {
+        "mId":"20",
+        "cId":"20",
+        "mName":"Market of Tharaka S",
+        "mShown":true
+        },
+        {
+        "mId":"21",
+        "cId":"21",
+        "mName":"Market of Isiolo",
+        "mShown":true
+        },
+        {
+        "mId":"22",
+        "cId":"22",
+        "mName":"Market of Kajiado",
+        "mShown":true
+        }
+        ]
+}

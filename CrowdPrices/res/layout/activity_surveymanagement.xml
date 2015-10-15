@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".CrowdMain" >
+
+    <!--
+         The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc.
+    -->
+    <Button
+        android:id="@+id/fullscreen_addcity"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"        
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="@+string/menu_addcity"
+        android:textColor="@color/white"
+        android:background="@color/blue_lvl1"
+        android:layout_weight="0.25"
+		android:src="@color/blue_lvl1"        
+        android:textSize="28sp"
+        android:textStyle="bold" />
+    
+
+    <Button
+        android:id="@+id/fullscreen_addmarket"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="@+string/menu_addmarket"        
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:background="@color/blue_lvl2"
+        android:layout_weight="0.25"
+        android:src="@color/blue_lvl2"        
+        android:textStyle="bold" />
+    
+    <Button
+        android:id="@+id/fullscreen_addvendor"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"        
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="@+string/menu_addvendor"
+        android:textColor="@color/white"
+        android:background="@color/blue_lvl3"
+        android:layout_weight="0.25"
+		android:src="@color/blue_lvl3"        
+        android:textSize="28sp"
+        android:textStyle="bold" />
+<Button
+	    android:id="@+id/btnMenuBack"
+	    style="@style/Widget.Sherlock.Button.Small"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/blue_lvl4"
+	    android:text="BACK"
+	    android:textAppearance="?android:attr/textAppearanceLarge" />
+</LinearLayout>

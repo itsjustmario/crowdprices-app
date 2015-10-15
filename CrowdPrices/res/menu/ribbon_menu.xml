@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">    
+    <item android:id="@+id/ribbon_logout" android:title="@string/rbnLogout" android:icon="@drawable/logout_ico"></item>
+    <item android:id="@+id/ribbon_languages" android:title="@string/rbnLanguages" android:icon="@drawable/languages_ico"></item>
+    <item android:id="@+id/ribbon_notification" android:title="@string/rbnNotification" android:icon="@drawable/notification_ico"></item>
+    <item android:id="@+id/ribbon_feedback" android:title="@string/rbnFeedback" android:icon="@drawable/feedback_ico"></item>
+    <!-- Icons below to be set  -->
+    <item android:id="@+id/ribbon_usermanual" android:title="@string/rbnUserManual" android:icon="@drawable/languages_ico"></item>
+    <item android:id="@+id/ribbon_license" android:title="@string/rbnLicense" android:icon="@drawable/notification_ico"></item>
+    <item android:id="@+id/ribbon_settings" android:title="@string/rbnSettings" android:icon="@drawable/settings"></item>
+</menu>

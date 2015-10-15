@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="AppBaseTheme" parent="@style/Theme.Sherlock.Light">
+        <item name="actionButtonStyle">@style/CrowdActionButtonStyle</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="FullscreenTheme" parent="@style/Theme.Sherlock.Light.NoActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="buttonBarStyle">@style/ButtonBar</item>
+        <item name="buttonBarButtonStyle">@style/ButtonBarButton</item>
+    </style>
+
+    <style name="ButtonBar">
+		<item name="background">@drawable/settings</item>
+	    <item name="android:background">@drawable/settings</item>
+    </style>
+
+    <style name="ButtonBarButton" /> 
+    
+    
+	<style name="CrowdActionButtonStyle" parent="@style/Widget.Sherlock.ActionButton">
+    	<item name="android:minWidth">22dip</item>
+    	<item name="android:maxWidth">15dip</item>
+	</style>    
+	<style name="SystemActionBarButton" parent="@style/Widget.Sherlock.ActionButton">
+        <item name="android:padding">8dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+		<item name="android:layout_margin">10dp</item>        	    
+	    <item name="android:layout_width">24dp</item>
+	    <item name="android:layout_height">24dp</item>
+	    <item name="android:background">@null</item>
+	    <item name="android:textColor">@color/white</item>
+	    <item name="android:ellipsize">end</item>
+	    <item name="android:singleLine">true</item>
+	    <item name="android:textSize">@dimen/text_size_small</item>
+	    <item name="background">#ffffff</item>	    
+	    	    
+	</style>
+	<style name="ribbonMenuItem">
+	    <item name="android:background">@color/white</item>
+	</style>
+    <style name="CustomTabPageIndicator" parent="Widget.TabPageIndicator">
+        <item name="android:textColor">#FF444444</item>
+        <item name="android:textAppearance">@style/CustomTabPageIndicator.Text</item>
+        <item name="android:textSize">15sp</item>  
+        
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">0dp</item>              
+    </style>
+    
+    <style name="CustomTabPageIndicator.Text" parent="android:TextAppearance.Medium">
+	    <item name="android:layout_marginBottom">15dp</item>
+	    
+    </style>
+
+
+</resources>

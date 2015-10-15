@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  SETTINGS  -->
+    <string name="ESRI_WORLD_STREET_MAP">http://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer</string>    
+    <string name="LATEST_APK_URL">http://fenixapps2.fao.org/repository/crowddata/CrowdPricesLatest.apk</string>
+    <string name="LATEST_XML_URL">http://fenixapps2.fao.org/repository/crowddata/AndroidManifest.xml</string>
+    <string name="CHANGELOG_URL">http://fenixapps2.fao.org/repository/crowddata/changelog.txt</string>
+    <string name="UPLOAD_URL">http://fenixapps.fao.org/crowdprices-services/rest/insert/haititest/haititest/crowdprices/data/citycode,marketcode,commoditycode,varietycode,date,currencycode,measurementunitcode,price/</string>
+    <string name="POSTGRESQL_URL_PROD">http://168.202.28.214:10900/crowddata</string>
+    <string name="POSTGRESQL_URL">http://fenixapps2.fao.org/restsql-0.8.8/res</string>
+    <string name="MONGO_URL">http://168.202.28.214:10900/crowddata</string>
+    <string name="MONGO_URL2">http://exldvsdmxreg1.ext.fao.org:10900/crowddata/insert</string>
+    <string name="RAW_URL">http://fenixapps2.fao.org/repository/crowddata/raw</string>
+    <string name="STARTING_LAT">-1.2962</string>
+    <string name="STARTING_LON">36.8314</string>
+    <string name="MainVersionDotted">1.</string>
+    <string name="sdpath">/crowdpricesRC/</string>
+    <string name="apkpath">/sdcard/crowdpricesRC/CrowdPrices.apk</string>    
+    
+    <!--  ANIMAL HEALTH  -->
+    <string-array name="AHM_S1">
+		<item>Bees</item>
+		<item>Birds</item>		
+		<item>Buffaloes</item>
+		<item>Camelidae</item>
+		<item>Cats</item>
+		<item>Cattle</item>
+		<item>Crustaceans</item>
+		<item>Dogs</item>
+		<item>Equidae</item>
+		<item>Fish</item>
+		<item>Goats</item>		
+		<item>Molluscs</item>
+		<item>Rabbits/Hares</item>		
+		<item>Sheep</item>				
+		<item>Swine</item>
+		<item>Wild species</item>
+		<item>All</item>						
+	</string-array>
+	<string-array name="AHM_D0"> <!-- BEES -->
+		<item>Acarapisosis of honey bees</item>
+		<item>American foulbrood of honey bees</item>
+		<item>Tropilaelaps infestation of honey bees</item>
+		<item>European foulbrood of honey bees</item>
+		<item>Varroosis of honey bees</item>
+	</string-array>
+	<string-array name="AHM_D1"> <!-- CHICKENS  -->
+		<item>Highly pathogenic avian influenza</item>
+		<item>Filariasis</item>
+		<item>Newcastle disease Velogenic</item>
+		<item>Avian encephalomyelitis</item>						
+		<item>Marek\'s disease</item>						
+		<item>Duck virus enteritis</item>
+		<item>Avian infectious bronchitis</item>
+		<item>Botulism</item>						
+		<item>Infectious bursal disease (Gumboro disease)</item>
+		<item>Duck virus hepatitis</item>
+		<item>Avian infectious laryngotracheitis</item>
+		<item>Infectious coryza</item>						
+		<item>Melioidosis</item>
+		<item>Avian leukosis</item>
+		<item>Fowl cholera</item>
+		<item>Avian mycoplasmosis (M. gallisepticum)</item>
+		<item>Fowl pox</item>						
+		<item>Avian salmonellosis (excluding B308 and B313)</item>
+		<item>Fowl typhoid</item>
+		<item>Newcastle disease Lentogenic</item>
+		<item>Avian spirochaetosis</item>						
+		<item>Coccidiosis</item>
+		<item>Newcastle disease Mesogenic</item>
+		<item>Avian tuberculosis</item>
+		<item>Listeriosis</item>
+		<item>Pullorum disease</item>
+		<item>Newcastle disease Not typed</item>
+		<item>Avian chlamydiosis</item>						
+	</string-array>	    
+		
+	<string-array name="AHM_D2"> <!-- BUFFALO -->
+		<item>Foot and mouth disease type SAT 1</item>		
+		<item>Foot and mouth disease type SAT 2</item>
+		<item>Foot and mouth disease type SAT 3</item>
+		<item>Foot and mouth disease not typed</item>		
+		<item>Bluetongue</item>
+		<item>Old World screwworm (Chrysomya bezziana)</item>
+		<item>Rift Valley fever</item>		
+		<item>Rinderpest</item>						
+		<item>Echinococcosis/hydatidosis</item>
+		<item>Foot and mouth disease type A</item>
+		<item>Foot and mouth disease type Asia</item>
+		<item>Foot and mouth disease type C</item>
+		<item>Foot and mouth disease type O</item>
+		<item>Surra (Trypanosoma evansi)</item>						
+		<item>New World screwworm (Cochliomyia hominivorax)</item>
+		<item>Paratuberculosis</item>
+		<item>Anthrax</item>						
+		<item>Heartwater</item>						
+	</string-array>	    
+	<string-array name="AHM_D4"> <!-- CATS -->
+		<item>Q fever</item>
+		<item>Rabies</item>
+		<item>Old World screwworm (Chrysomya bezziana)</item>
+		<item>Botulism</item>						
+		<item>Other Pasteurellosis</item>
+		<item>Echinococcosis/hydatidosis</item>
+		<item>Intestinal Salmonella Infections</item>
+		<item>New World screwworm (Cochliomyia hominivorax)</item>						
+		<item>Toxoplasmosis</item>
+		<item>Coccidiosis</item>
+		<item>Aujeszky’s disease</item>
+	</string-array>	    
+	
+	<string-array name="AHM_D5"> <!-- CATTLE -->
+		<item>Bluetongue</item>
+		<item>Vesicular stomatitis Indiana</item>
+		<item>Lumpy skin disease</item>
+		<item>Corridor disease (T.p. lawrencei)</item>						
+		<item>Rabies</item>						
+		<item>Dermatophilosis</item>
+		<item>Malignant catarrhal fever</item>
+		<item>Distomatosis (Liver Fluke)</item>						
+		<item>Foot and mouth disease type SAT 2</item>
+		<item>Botulism</item>
+		<item>Vesicular stomatitis New Jersey</item>
+		<item>Foot and mouth disease not typed</item>						
+		<item>Old World screwworm (Chrysomya bezziana)</item>
+		<item>Infectious bovine rhinotracheitis / infectious pus</item>
+		<item>Mastitis</item>
+		<item>Vesicular stomatitis Not typed</item>
+		<item>Rift Valley fever</item>						
+		<item>Foot and mouth disease type SAT 3</item>
+		<item>Melioidosis</item>
+		<item>Foot and mouth disease type A</item>
+		<item>Rinderpest</item>						
+		<item>Other Clostridial Infections</item>
+		<item>Vibrionic dysentery</item>
+		<item>East Coast fever (T.p. parva)</item>
+		<item>Echinococcosis/hydatidosis</item>
+		<item>Footrot</item>
+		<item>Bovine anaplasmosis</item>
+		<item>Intestinal Salmonella Infections</item>						
+		<item>Bovine babesiosis</item>						
+		<item>Bovine brucellosis</item>
+		<item>Foot and mouth disease type Asia</item>
+		<item>Bovine cysticercosis</item>						
+		<item>Bovine genital campylobacteriosis</item>
+		<item>Mucosal Disease/Bovine Virus Diarrhoea</item>
+		<item>Bovine spongiform encephalopathy</item>
+		<item>Enzootic bovine leukosis</item>						
+		<item>Bovine tuberculosis</item>
+		<item>Epizootic lymphangitis</item>
+		<item>New World screwworm (Cochliomyia hominivorax)</item>
+		<item>Paratuberculosis</item>						
+		<item>Actinomycosis</item>
+		<item>January disease (T.p. bovis)</item>
+		<item>Surra (Trypanosoma evansi)</item>
+		<item>Foot and mouth disease type C</item>						
+		<item>Coccidiosis</item>
+		<item>Leptospirosis</item>
+		<item>Anthrax</item>
+		<item>Theileriosis Not typed</item>						
+		<item>Toxoplasmosis</item>
+		<item>Foot and mouth disease type O</item>
+		<item>Listeriosis</item>
+		<item>Trichomonosis</item>						
+		<item>Haemorrhagic septicaemia</item>
+		<item>Heartwater</item>						
+		<item>Trypanosomosis (tsetse-transmitted)</item>
+		<item>Aujeszky’s disease</item>						
+		<item>Ulcerative lymphangitis</item>
+		<item>Contagious bovine pleuropneumonia</item>						
+		<item>Foot and mouth disease type SAT 1</item>
+		<item>Benign theileriosis (T. mutans)</item>						
+		<item>Filariasis</item>
+		<item>Blackleg</item>						
+		<item>Q fever</item>
+	</string-array>	    
+		
+	<string-array name="AHM_D7"> <!-- DOGS  -->
+		<item>Q fever</item>
+		<item>Filariasis</item>
+		<item>Rabies</item>
+		<item>Mastitis</item>						
+		<item>Old World screwworm (Chrysomya bezziana)</item>						
+		<item>Rift Valley fever</item>
+		<item>Botulism</item>
+		<item>Echinococcosis/hydatidosis</item>						
+		<item>Melioidosis</item>
+		<item>Canine distemper</item>
+		<item>Intestinal Salmonella Infections</item>
+		<item>Leishmaniosis</item>						
+		<item>New World screwworm (Cochliomyia hominivorax)</item>
+		<item>Leptospirosis</item>
+		<item>Coccidiosis</item>
+		<item>Aujeszky’s disease</item>
+	</string-array>	    
+		
+	<string-array name="AHM_D8"> <!-- DONKEYS  -->
+		<item>Venezuelan equine encephalomyelitis</item>
+		<item>Filariasis</item>
+		<item>Vesicular stomatitis Indiana</item>
+		<item>Horse mange</item>						
+		<item>Dourine</item>						
+		<item>Horse pox</item>
+		<item>Botulism</item>
+		<item>Vesicular stomatitis New Jersey</item>						
+		<item>Vesicular stomatitis Not typed</item>
+		<item>Melioidosis</item>
+		<item>Salmonellosis (Salmonella abortus equi)</item>
+		<item>Intestinal Salmonella Infections</item>						
+		<item>Strangles</item>
+		<item>Epizootic lymphangitis</item>
+		<item>African horse sickness</item>
+		<item>Japanese encephalitis</item>
+		<item>Surra (Trypanosoma evansi)</item>						
+		<item>Equine coital exanthema</item>
+		<item>Equine encephalomyelitis (Eastern and Western)</item>
+		<item>Coccidiosis</item>
+		<item>Equine infectious anaemia</item>						
+		<item>Anthrax</item>
+		<item>Equine influenza</item>
+		<item>Glanders</item>
+		<item>Equine piroplasmosis</item>
+		<item>Equine rhinopneumonitis</item>
+		<item>Equine viral arteritis</item>
+		<item>Ulcerative lymphangitis</item>						
+		<item>Contagious equine metritis</item>						
+	</string-array>	  
+
+	<string-array name="AHM_D10"> <!-- GOATS  -->
+		<item>Q fever</item>
+		<item>Contagious pustular dermatitis</item>
+		<item>Vesicular stomatitis Indiana</item>
+		<item>Rabies</item>						
+		<item>Foot and mouth disease type SAT 2</item>						
+		<item>Botulism</item>
+		<item>Vesicular stomatitis New Jersey</item>
+		<item>Foot and mouth disease not typed</item>						
+		<item>Old World screwworm (Chrysomya bezziana)</item>
+		<item>Mastitis</item>
+		<item>Vesicular stomatitis Not typed</item>
+		<item>Rift Valley fever</item>						
+		<item>Foot and mouth disease type SAT 3</item>
+		<item>Melioidosis</item>
+		<item>Foot and mouth disease type A</item>
+		<item>Other Pasteurellosis</item>
+		<item>Echinococcosis/hydatidosis</item>						
+		<item>Footrot</item>
+		<item>Intestinal Salmonella Infections</item>
+		<item>Foot and mouth disease type Asia</item>
+		<item>Sheep pox and goat pox</item>						
+		<item>Caprine and ovine brucellosis (excluding B. ovis)</item>
+		<item>New World screwworm (Cochliomyia hominivorax)</item>
+		<item>Caprine arthritis/encephalitis</item>
+		<item>Paratuberculosis</item>
+		<item>Foot and mouth disease type C</item>
+		<item>Coccidiosis</item>
+		<item>Anthrax</item>						
+		<item>Peste des petits ruminants</item>						
+		<item>Toxoplasmosis</item>
+		<item>Foot and mouth disease type O</item>
+		<item>Goat mange</item>						
+		<item>Listeriosis</item>
+		<item>Heartwater</item>
+		<item>Aujeszky’s disease</item>
+		<item>Contagious agalactia</item>						
+		<item>Contagious cap. pleuropneumonia</item>
+		<item>Foot and mouth disease type SAT 1</item>
+	</string-array>	    
+	
+	<string-array name="AHM_D12"> <!-- RABBITS  -->
+		<item>Rabbit haemorrhagic disease</item>
+		<item>Other Pasteurellosis</item>
+		<item>Myxomatosis</item>
+		<item>Epizootic lymphangitis</item>						
+		<item>Leptospirosis</item>						
+		<item>Coccidiosis</item>
+		<item>Tularemia</item>
+	</string-array>	    
+
+	<string-array name="AHM_D13"> <!-- SHEEPS -->
+		<item>Q fever</item>
+		<item>Bluetongue</item>
+		<item>Contagious ophthalmia</item>
+		<item>Contagious pustular dermatitis</item>						
+		<item>Vesicular stomatitis Indiana</item>						
+		<item>Maedi-visna</item>
+		<item>Rabies</item>
+		<item>Foot and mouth disease type SAT 2</item>						
+		<item>Botulism</item>
+		<item>Vesicular stomatitis New Jersey</item>
+		<item>Foot and mouth disease not typed</item>
+		<item>Old World screwworm (Chrysomya bezziana)</item>						
+		<item>Mastitis</item>
+		<item>Vesicular stomatitis Not typed</item>
+		<item>Rift Valley fever</item>
+		<item>Foot and mouth disease type SAT 3</item>
+		<item>Melioidosis</item>						
+		<item>Foot and mouth disease type A</item>
+		<item>Other Clostridial Infections</item>
+		<item>Warble infestation</item>
+		<item>Other Pasteurellosis</item>						
+		<item>Echinococcosis/hydatidosis</item>
+		<item>Footrot</item>
+		<item>Ovine epididymitis (Brucella ovis)</item>
+		<item>Salmonellosis (S. abortusovis)</item>
+		<item>Intestinal Salmonella Infections</item>
+		<item>Enterotoxaemia</item>
+		<item>Foot and mouth disease type Asia</item>						
+		<item>Scrapie</item>						
+		<item>Sheep pox and goat pox</item>
+		<item>Enzootic abortion of ewes (ovine chlamydiosis)</item>
+		<item>Sheep Scab (mange)</item>						
+		<item>Nairobi sheep disease</item>
+		<item>Ovine pulmonary adenomatosis</item>
+		<item>Caprine and ovine brucellosis (excluding B. ovis)</item>
+		<item>New World screwworm (Cochliomyia hominivorax)</item>						
+		<item>Paratuberculosis</item>
+		<item>Caseous lymphadenitis</item>
+		<item>Foot and mouth disease type C</item>						
+		<item>Coccidiosis</item>
+		<item>Leptospirosis</item>
+		<item>Anthrax</item>						
+		<item>Peste des petits ruminants</item>
+		<item>Toxoplasmosis</item>
+		<item>Foot and mouth disease type O</item>						
+		<item>Listeriosis</item>
+		<item>Heartwater</item>
+		<item>Aujeszky\’s disease</item>						
+		<item>Contagious agalactia</item>
+		<item>Foot and mouth disease type SAT 1</item>
+	</string-array>	    
+	
+
+	<string-array name="AHM_D14"> <!-- PIGS  -->
+		<item>Vesicular stomatitis Indiana</item>
+		<item>Rabies</item>
+		<item>Foot and mouth disease type SAT 2</item>
+		<item>Vesicular stomatitis New Jersey</item>						
+		<item>Foot and mouth disease not typed</item>						
+		<item>Mastitis</item>
+		<item>Vesicular stomatitis Not typed</item>
+		<item>Foot and mouth disease type SAT 3</item>						
+		<item>Melioidosis</item>
+		<item>Foot and mouth disease type A</item>
+		<item>Intestinal Salmonella Infections</item>
+		<item>Enterovirus encephalomyelitis</item>						
+		<item>Foot and mouth disease type Asia</item>
+		<item>Classical swine fever</item>
+		<item>African swine fever</item>
+		<item>Foot and mouth disease type C</item>
+		<item>Swine erysipelas</item>						
+		<item>Coccidiosis</item>
+		<item>Swine vesicular disease</item>
+		<item>Anthrax</item>
+		<item>Toxoplasmosis</item>						
+		<item>Transmissible gastroenteritis </item>
+		<item>Trichinellosis</item>
+		<item>Porcine brucellosis</item>
+		<item>Foot and mouth disease type O</item>
+		<item>Porcine cysticercosis</item>
+		<item>Listeriosis</item>
+		<item>Porcine reproductive and respiratory syndrome</item>						
+		<item>Atrophic rhinitis of swine</item>						
+		<item>Aujeszky\’s disease</item>
+		<item>Foot and mouth disease type SAT 1</item>
+	</string-array>	    
+				  
+
+	<string-array name="AHM_D15"> <!-- GAME  -->
+		<item>Listeriosis</item>
+		<item>Foot and mouth disease type SAT 1</item>
+		<item>Bluetongue</item>
+		<item>Rabies</item>						
+		<item>Foot and mouth disease type SAT 2</item>						
+		<item>Foot and mouth disease not typed</item>
+		<item>Old World screwworm (Chrysomya bezziana)</item>
+		<item>Botulism</item>						
+		<item>Foot and mouth disease type SAT 3</item>
+		<item>Rinderpest</item>
+		<item>Foot and mouth disease type A</item>
+		<item>Foot and mouth disease type Asia</item>						
+		<item>New World screwworm (Cochliomyia hominivorax)</item>
+		<item>Paratuberculosis</item>
+		<item>Foot and mouth disease type C</item>
+		<item>Leptospirosis</item>
+		<item>Peste des petits ruminants</item>						
+		<item>Anthrax</item>
+		<item>Foot and mouth disease type O</item>
+		<item>Heartwater</item>
+	</string-array>	    
+	
+<string-array name="AHM_DALL">
+        <item>Acarapisosis of honey bees</item>
+        <item>Actinomycosis</item>
+        <item>African horse sickness</item>
+        <item>African swine fever</item>
+        <item>American foulbrood of honey bees</item>
+        <item>Anthrax</item>
+        <item>Atrophic rhinitis of swine</item>
+        <item>Aujeszky\'s disease</item>
+        <item>Avian chlamydiosis</item>
+        <item>Avian encephalomyelitis</item>
+        <item>Avian infectious bronchitis</item>
+        <item>Avian infectious laryngotracheitis</item>
+        <item>Avian leukosis</item>
+        <item>Avian mycoplasmosis (M. gallisepticum)</item>
+        <item>Avian salmonellosis (excluding B308 and B313)</item>
+        <item>Avian spirochaetosis</item>
+        <item>Avian tuberculosis</item>
+        <item>Benign theileriosis (T. mutans)</item>
+        <item>Blackleg</item>
+        <item>Bluetongue</item>
+        <item>Botulism</item>
+        <item>Bovine anaplasmosis</item>
+        <item>Bovine babesiosis</item>
+        <item>Bovine brucellosis</item>
+        <item>Bovine cysticercosis</item>
+        <item>Bovine genital campylobacteriosis</item>
+        <item>Bovine spongiform encephalopathy</item>
+        <item>Bovine tuberculosis</item>
+        <item>Canine distemper</item>
+        <item>Caprine and ovine brucellosis (excluding B. ovis)</item>
+        <item>Caprine arthritis/encephalitis</item>
+        <item>Caseous lymphadenitis</item>
+        <item>Classical swine fever</item>
+        <item>Coccidiosis</item>
+        <item>Contagious agalactia</item>
+        <item>Contagious bovine pleuropneumonia</item>
+        <item>Contagious cap. pleuropneumonia</item>
+        <item>Contagious equine metritis</item>
+        <item>Contagious ophthalmia</item>
+        <item>Contagious pustular dermatitis</item>
+        <item>Corridor disease (T.p. lawrencei)</item>
+        <item>Dermatophilosis</item>
+        <item>Distomatosis (Liver Fluke)</item>
+        <item>Dourine</item>
+        <item>Duck virus enteritis</item>
+        <item>Duck virus hepatitis</item>
+        <item>East Coast fever (T.p. parva)</item>
+        <item>Echinococcosis/hydatidosis</item>
+        <item>Enterotoxaemia</item>
+        <item>Enterovirus encephalomyelitis</item>
+        <item>Enzootic abortion of ewes (ovine chlamydiosis)</item>
+        <item>Enzootic bovine leukosis</item>
+        <item>Epizootic lymphangitis</item>
+        <item>Equine coital exanthema</item>
+        <item>Equine encephalomyelitis (Eastern and Western)</item>
+        <item>Equine infectious anaemia</item>
+        <item>Equine influenza</item>
+        <item>Equine piroplasmosis</item>
+        <item>Equine rhinopneumonitis</item>
+        <item>Equine viral arteritis</item>
+        <item>European foulbrood of honey bees</item>
+        <item>Filariasis</item>
+        <item>Foot and mouth disease not typed</item>
+        <item>Foot and mouth disease type A</item>
+        <item>Foot and mouth disease type Asia</item>
+        <item>Foot and mouth disease type C</item>
+        <item>Foot and mouth disease type O</item>
+        <item>Foot and mouth disease type SAT 1</item>
+        <item>Foot and mouth disease type SAT 2</item>
+        <item>Foot and mouth disease type SAT 3</item>
+        <item>Footrot</item>
+        <item>Fowl cholera</item>
+        <item>Fowl pox</item>
+        <item>Fowl typhoid</item>
+        <item>Glanders</item>
+        <item>Goat mange</item>
+        <item>Haemorrhagic septicaemia</item>
+        <item>Heartwater</item>
+        <item>Highly pathogenic avian influenza</item>
+        <item>Horse mange</item>
+        <item>Horse pox</item>
+        <item>Infectious bovine rhinotracheitis / infectious pus</item>
+        <item>Infectious bursal disease (Gumboro disease)</item>
+        <item>Infectious coryza</item>
+        <item>Intestinal Salmonella Infections</item>
+        <item>January disease (T.p. bovis)</item>
+        <item>Japanese encephalitis</item>
+        <item>Leishmaniosis</item>
+        <item>Leptospirosis</item>
+        <item>Listeriosis</item>
+        <item>Lumpy skin disease</item>
+        <item>Maedi-visna</item>
+        <item>Malignant catarrhal fever</item>
+        <item>Marek\'s disease</item>
+        <item>Mastitis</item>
+        <item>Melioidosis</item>
+        <item>Mucosal Disease/Bovine Virus Diarrhoea</item>
+        <item>Myxomatosis</item>
+        <item>Nairobi sheep disease</item>
+        <item>New World screwworm (Cochliomyia hominivorax)</item>
+        <item>Newcastle disease Lentogenic</item>
+        <item>Newcastle disease Mesogenic</item>
+        <item>Newcastle disease Not typed</item>
+        <item>Newcastle disease Velogenic</item>
+        <item>Old World screwworm (Chrysomya bezziana)</item>
+        <item>Other Clostridial Infections</item>
+        <item>Other Pasteurellosis</item>
+        <item>Ovine epididymitis (Brucella ovis)</item>
+        <item>Ovine pulmonary adenomatosis</item>
+        <item>Paratuberculosis</item>
+        <item>Peste des petits ruminants</item>
+        <item>Porcine brucellosis</item>
+        <item>Porcine cysticercosis</item>
+        <item>Porcine reproductive and respiratory syndrome</item>
+        <item>Pullorum disease</item>
+        <item>Q fever</item>
+        <item>Rabbit haemorrhagic disease</item>
+        <item>Rabies</item>
+        <item>Rift Valley fever</item>
+        <item>Rinderpest</item>
+        <item>Salmonellosis (S. abortusovis)</item>
+        <item>Salmonellosis (Salmonella abortus equi)</item>
+        <item>Scrapie</item>
+        <item>Sheep pox and goat pox</item>
+        <item>Sheep Scab (mange)</item>
+        <item>Strangles</item>
+        <item>Surra (Trypanosoma evansi)</item>
+        <item>Swine erysipelas</item>
+        <item>Swine vesicular disease</item>
+        <item>Theileriosis Not typed</item>
+        <item>Toxoplasmosis</item>
+        <item>Transmissible gastroenteritis </item>
+        <item>Trichinellosis</item>
+        <item>Trichomonosis</item>
+        <item>Tropilaelaps infestation of honey bees</item>
+        <item>Trypanosomosis (tsetse-transmitted)</item>
+        <item>Tularemia</item>
+        <item>Ulcerative lymphangitis</item>
+        <item>Unknown</item>
+        <item>Varroosis of honey bees</item>
+        <item>Venezuelan equine encephalomyelitis</item>
+        <item>Vesicular stomatitis Indiana</item>
+        <item>Vesicular stomatitis New Jersey</item>
+        <item>Vesicular stomatitis Not typed</item>
+        <item>Vibrionic dysentery</item>
+        <item>Warble infestation</item>
+	</string-array>	
+		
+	<string-array name="AHM_DVOID"> <!--  -->
+		<item>All</item>
+		<item>All</item>
+		<item>All</item>
+		<item>All</item>						
+		<item>All</item>						
+		<item>All</item>
+		<item>All</item>
+		<item>All</item>						
+		<item>All</item>
+		<item>All</item>
+		<item>All</item>
+		<item>All</item>						
+		<item>All</item>
+		<item>All</item>
+		<item>All</item>
+		<item>All</item>
+		<item>All</item>						
+		<item>All</item>
+		<item>All</item>
+		<item>All</item>
+		<item>All</item>						
+		<item>All</item>
+		<item>All</item>
+		<item>All</item>
+		<item>All</item>
+		<item>All</item>
+		<item>All</item>
+		<item>All</item>						
+		<item>All</item>						
+		<item>All</item>
+		<item>All</item>
+		<item>All</item>						
+		<item>All</item>
+		<item>All</item>
+		<item>All</item>
+		<item>All</item>						
+		<item>All</item>
+	</string-array>	    
+					
+		
+	<string-array name="AHM_S2">
+		<item>Foot and mouth disease</item>
+		<item>Vesicular stomatitis</item>		
+		<item>Swine vesicular disease</item>
+		<item>Rinderpest</item>
+		<item>Peste des petits ruminants</item>
+		<item>Contagious bovine pleuropneumonia</item>
+		<item>Lumpy skin disease</item>
+		<item>Rift Valley fever</item>
+		<item>Bluetongue</item>
+		<item>Sheep pox and goat pox</item>
+		<item>African horse sickness</item>
+		<item>African swine fever</item>
+		<item>Classical swine fever</item>
+		<item>Highly pathogenic avian influenza</item>
+		<item>Newcastle disease</item>
+		<item>Anthrax</item>
+		<item>Aujeszky’s disease</item>
+		<item>Echinococcosis/hydatidosis</item>
+		<item>Heartwater</item>
+		<item>Leptospirosis</item>
+		<item>Q fever</item>
+		<item>Rabies</item>
+		<item>Paratuberculosis</item>
+		<item>New World screwworm</item>
+		<item>Old World screwworm</item>
+		<item>Trichinellosis</item>
+		<item>Bovine anaplasmosis</item>
+		<item>Bovine babesiosis</item>
+		<item>Bovine brucellosis</item>
+		<item>Bovine genital campylobacteriosis</item>
+		<item>Bovine tuberculosis</item>
+		<item>Bovine cysticercosis</item>
+		<item>Dermatophilosis</item>
+		<item>Enzootic bovine leukosis</item>
+		<item>Haemorrhagic septicaemia</item>
+		<item>Infectious bovine rhinotracheitis / infectious pustular vulvovaginitis</item>
+		<item>Theileriosis</item>
+		<item>Trichomonosis</item>
+		<item>Trypanosomosis (tsetse-transmitted)</item>
+		<item>Malignant catarrhal fever</item>
+		<item>Bovine spongiform encephalopathy</item>
+		<item>Ovine epididymitis</item>
+		<item>Caprine and ovine brucellosis</item>
+		<item>Caprine arthritis/encephalitis</item>
+		<item>Contagious agalactia</item>
+		<item>Contagious cap. pleuropneumonia</item>
+		<item>Enzootic abortion of ewes</item>		
+	</string-array>
+    <string-array name="AHM_S3">
+		<item>None</item>
+		<item>Treatment</item>
+		<item>Vaccination</item>		
+		<item>Quarantine</item>
+		<item>Stamping out</item>
+		<item>Modified stamping out</item>
+		<item>Control of wildlife reservoirs</item>
+		<item>Vector control</item>
+		<item>Destruction of infected material and disinfection</item>
+	</string-array>
+    <string-array name="AHM_S4">
+		<item>Illegal animal movement</item>
+		<item>Legal animal movement</item>		
+		<item>Movement of animal product</item>
+		<item>Airborne spread</item>
+		<item>From endemic foci at locality</item>
+		<item>Vector</item>
+		<item>Fomites</item>
+		<item>Extension from wildlife</item>
+		<item>Unknown</item>
+	</string-array>
+    <string-array name="AHM_S5">
+		<item>Rumour</item>
+		<item>Owners Claim</item>		
+		<item>Clinical</item>
+		<item>Post-mortem</item>
+		<item>Laboratory</item>
+	</string-array>
+    	
+    
+    
+    <!--  FORESTRY  -->
+    <string name="fT1">PRIMARY USE</string>
+    <string name="fT2">CURRENT LAND USE</string>
+    <string name="fT3">UNIT</string>
+    <string name="fT4">SPECIES</string>
+    <string name="fT5">ENTRY</string>
+    <string-array name="fS1">
+		<item>Protected Area</item>
+		<item>Production of Timber</item>		
+		<item>Production of non-wood products</item>
+		<item>Recreation</item>
+		<item>Other Uses</item>
+	</string-array>
+    <string-array name="fS2">
+		<item>Crop Land</item>
+		<item>Pasture/Rageland</item>
+		<item>Permanent Crops</item>
+		<item>Urban or Suburban</item>
+		<item>Infrastructure</item>
+		<item>Other</item>
+	</string-array>
+    <string-array name="fS3">
+		<item>Firewood</item>
+		<item>Plywood</item>
+		<item>Roundwood</item>
+		<item>Sawnwood</item>
+		<item>Other</item>
+	</string-array>	
+	<string-array name="GaulLevels">
+		<item>GAUL DISABLED</item>
+		<item>GAUL 1</item>
+		<item>GAUL 2</item>
+	</string-array>
+	<string-array name="Languages">
+		<item>ENGLISH</item>
+	<!--	<item>FRANÇAIS</item>	 -->
+	<!--	<item>ESPAÑOL</item>	 -->
+	</string-array>
+		<string-array name="array_name">
+		<item>Array Item One</item>
+		<item>Array Item Two</item>
+		<item>Array Item Three</item>
+	</string-array>
+    
+    <!--  GENERAL  -->
+    <string name="app_name">Crowd Prices RC</string>
+    <string name="menu_adddata">ADD DATA</string>
+    <string name="menu_addmarket">ADD MARKET</string>
+    <string name="menu_addvendor">ADD VENDOR</string>
+    <string name="menu_addcity">ADD CITY</string>
+    <string name="menu_addtemplate">ADD TEMPLATE</string>
+    
+    <string name="menu_archive">ARCHIVE</string>
+    <string name="menu_templates">TEMPLATES</string>
+    <string name="menu_management">SURVEY MANAGEMENT</string>
+    
+    <string name="submenu_logout">Logout</string>
+    <string name="submenu_notification">Notification</string>
+    <string name="submenu_languages">Languages</string>
+    <string name="submenu_feedback">Feedback</string>
+    <string name="submenu_usermanual">User Manual</string>
+    <string name="submenu_license">License</string>
+    <string name="submenu_settings">Settings</string>
+    <string name="submenu_updates">Updates</string>
+    
+    <string name="tNation">COUNTRY</string>
+    <string name="tCity">CITY/TOWN/VILLAGE</string>
+    <string name="tCityName">CITY \'S NAME</string>
+    <string name="tCityType">CITY \'S TYPE</string>
+    <string name="tMarket">MARKET</string>
+    <string name="tMarketName">MARKET\'S NAME</string>
+    <string name="tCoordinates">COORDINATES</string>    
+    <string name="tVendor">VENDOR</string>
+    <string name="tVendorSize">VENDOR\'S SIZE</string>
+    <string name="tVendorName">VENDOR\'S NAME</string>
+    <string name="tQuantity">QUANTITY</string>
+    <string name="tKind">KIND OF SURVEY</string>
+    <string name="tNote">NOTES</string>
+    <string name="tCommodity">COMMODITY</string>
+    <string name="tCurrency">CURRENCY</string>
+    <string name="tMunit">MEASUREMENT</string>
+    <string name="tPrice">PRICE</string>	
+	<string name="tUsername">USERNAME</string>
+    <string name="tPassword">PASSWORD</string>
+	<string name="tLogin">LOGIN</string>
+    <string name="tCancel">CANCEL</string>
+    <string name="tSave">SAVE</string>
+    <string name="tLat">LAT.</string>
+    <string name="tLon">LON.</string>
+    <string name="tDefaultTemplate">DEFAULT TEMPLATE</string>
+    <string name="tSettings">SETTINGS</string>
+    <string name="tDebugMode">DEBUG MODE</string>
+    <string name="tCryptoSD">CRYPTOGRAPHY ON SD</string>
+    <string name="tDelSurvey">DELETE SURVEY ON SUBMIT</string>
+    <string name="tUseOldWebsite">USE OLD WEBSITE</string>
+    <string name="tVariety">COMMODITY VARIETY OPTION</string>
+    <string name="tSendToServer">SEND SURVEY TO SERVER</string>
+    <string name="tUpdatesServer">UPDATES LISTS FROM SERVER</string>
+    <string name="tAutoSelectGPS">AUTO SELECT BY GPS LEVEL</string>
+    <string name="tGaulLevel">SET GAUL LEVEL</string>
+    <string name="tLanguages">SET LANGUAGE</string>
+    <string name="tInAppUpd">IN APP UPDATE</string>
+    <string name="btnDefaultTemplate">SET DEFAULT TEMPLATE ...</string>
+    <string name="btnAddCommodity">ADD COMMODITY</string>
+    <string name="txtAutoUpdates">Auto-Updates</string>
+    <string name="txtOn">ON</string>
+    <string name="txtOff">OFF</string>
+    <string name="txtUpdating">UPDATING</string>
+    <string name="txtUpdates">UPDATES</string>
+    <string name="txtChangeLog">CHANGELOG</string>
+    <string name="txtInstalledVer">Installed Version</string>
+    <string name="txtLatestVer">Latest Version</string>
+    
+    <string name="gpsON">GPS is on; Acquiring Position...</string>
+    <string name="gpsOFF">GPS is Disable</string>
+    <string name="gpsProvDis">GPS: Provider disable</string>
+    <string name="gpsProvEn">GPS: Provider enable</string>
+    <string name="gpsOOS">GPS is Out Of Service</string>
+    <string name="gpsUpdPro">Updating Location...</string>
+    <string name="gpsUpdEnd">Location Updated. </string>    
+    
+    <string name="updTitle">Update</string>
+    <string name="updCheck">Check for updates...</string>
+    <string name="updProgress">Update in progress...</string>
+    <string name="updWait">Please wait</string>
+    
+    <string name="msgUpdNewVersion1">A new version is available.</string>
+    <string name="msgUpdNewVersion2">Download it now?</string>
+    <string name="msgUpdNewVersion">A new version is available. Download it now?</string>
+    <string name="msgMoreInfo">More Info</string>
+    <string name="iUpdating">UPDATING DATA FROM SERVER</string>
+    <string name="iAlreadyLatest">ALREADY USING THE LAST VERSION</string>
+    <string name="eWrongUserPass">ERROR: WRONG USERNAME OR PASSWORD.</string>
+    <string name="iGreet">WELCOME </string> 
+    <string name="iCityAdded">NEW CITY ADDED.</string> 
+    <string name="iMarketAdded">NEW MARKET ADDED.</string> 
+    <string name="iVendorAdded">NEW VENDOR ADDED.</string>    
+    <string name="iLogginIn">LOGGIN IN. PLEASE WAIT</string>
+    <string name="iDataUpdated">DATA UPDATED</string>
+    <string name="iSendToServerOFF">SEND DATA TO SERVER IS OFF. CHECK SETTINGS</string>
+    <string name="qAreYouSure">Are you sure ?</string>
+    <string name="qNewSurvey">New Survey ?</string>
+    <string name="eNoConn">NO CONNECTION AVAILABLE. CHECK SYSTEM.</string>
+    <string name="eNoSurvey">SURVEY IS EMPTY. CHECK SURVEY.</string>
+    <string name="eNoPrice">PRICE IS EMPTY. CHECK SURVEY.</string>
+    <string name="eDataMissing">SOME DATA IS MISSING. \r\n PLEASE CHECK THE DATA.</string>
+    <string name="eNoSurveyFound">No Survey Found</string>
+    <string name="eNoTemplatesFound">No Templates Found</string>
+    <string name="okSubmitted">SURVEY SUBMITTED TO THE SERVER.</string>
+    <string name="okSaved">SURVEY SAVED ON DEVICE.</string>
+    <string name="okTemplate">SURVEY SAVED AS TEMPLATE.</string>
+    <string name="errSubmitted">ERROR DURING SUBMISSION</string>
+    <string name="errSaved">ERROR ON SURVEY WRITING</string>
+    <string name="errTemplate">ERROR ON TEMPLATE WRITING</string>    
+    <string name="sMarketOf">Market of</string>
+    <string name="btnClearSurvey">CLEAR SURVEY</string>
+    <string name="btnSaveTemplate">SAVE AS TEMPLATE</string>
+    <string name="btnDeleteSurvey">DELETE SURVEY</string>
+    <string name="btnSubmitServer">SUBMIT ON SERVER</string>
+    <string name="btnSubmitAndDelete">SUBMIT AND DELETE</string>
+    <string name="btnBack">BACK</string>
+    <string name="btnUpdate">UPDATE</string>
+    <string name="btnSave">SAVE ON DEVICE</string>
+    <string name="btnUpdt">UPDATE ON DEVICE</string>
+    <string name="btnSaveSingle">SAVE</string>    
+    <string name="rbnLogout">Logout</string>
+    <string name="rbnLanguages">Languages</string>
+    <string name="rbnNotification">Notification</string>
+    <string name="rbnFeedback">Feedback</string>
+    <string name="rbnUserManual">User Manual</string>
+    <string name="rbnLicense">License</string>
+    <string name="rbnSettings">Settings</string>    
+    
+    <string name="qstMap1">Use </string>
+    <string name="qstMap2"> as Current Location ?</string>
+    
+	<string name="loremIpsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+	<string-array name="cityType">
+		<item>Major City</item>
+		<item>City</item>
+		<item>Village</item>
+		<item>Town</item>
+		<item>Other</item>
+	</string-array>
+	<string-array name="VendorSize">
+		<item>SMALL</item>
+		<item>MEDIUM</item>
+		<item>BIG</item>
+	</string-array>			
+	<string-array name="currency">
+		<item>Kenyan Shilling</item>
+	</string-array>
+	<string-array name="munit">
+		<item>kg</item>
+	</string-array>
+	<string-array name="kind">
+		<item>Wholesale</item>
+		<item>Retail</item>
+		<item>Other</item>
+	</string-array>
+		
+	<!-- TO BE REMOVED  -->
+	<string-array name="vendors">
+		<item>Example Vendor 1</item>
+		<item>Example Vendor 2</item>
+		<item>Example Vendor 3</item>
+	</string-array>
+			
+	<string-array name="nations">
+		<item>Kenya</item>
+	</string-array>
+	
+	<string-array name="cities">
+		<item>Nairobi</item>
+		<item>Mombasa</item>
+		<item>Kisumu</item>
+		<item>Nakuru</item>
+		<item>Eldoret</item>
+		<item>Malindi</item>
+		<item>Marimanti</item>
+		<item>Imenti</item>
+		<item>Nyahururu</item>
+		<item>Kitale</item>
+		<item>Kakamega</item>
+		<item>Machakos</item>
+		<item>Kisii</item>
+		<item>Busia</item>
+		<item>Taveta</item>
+		<item>Loitokitok</item>
+		<item>Embu</item>
+		<item>Kitui</item>
+		<item>Tharaka North</item>
+		<item>Chwele</item>
+		<item>Tharaka S</item>
+		<item>Isiolo</item>
+		<item>Kajiado</item>
+	</string-array>	
+	<string-array name="citiesLat">
+		<item>-1.28333</item>
+		<item>-4.05466</item>
+		<item>-0.10221</item>
+		<item>-0.28333</item>
+		<item>0.52036</item>
+		<item>-3.21799</item>
+		<item>-0.11667</item>
+		<item>-0.00206</item>
+		<item>0.05</item>
+		<item>1.01572</item>
+		<item>0.28422</item>
+		<item>-1.28333</item>
+		<item>-0.74428</item>
+		<item>0.36186</item>
+		<item>-3.40193</item>
+		<item>-2.90103</item>
+		<item>-0.425</item>
+		<item>-1.835</item>
+		<item>-0.1</item>
+		<item>0.41809</item>
+		<item>-0.25</item>
+		<item>0.35462</item>
+		<item>-1.85238</item>
+	</string-array>	
+		<string-array name="citiesLon">
+		<item>36.81667</item>
+		<item>39.66359</item>
+		<item>34.76171</item>
+		<item>36.06667</item>
+		<item>35.26992</item>
+		<item>40.11692</item>
+		<item>37.95</item>
+		<item>37.59484</item>
+		<item>36.3</item>
+		<item>35.00622</item>
+		<item>34.75228</item>
+		<item>37.41667</item>
+		<item>34.83014</item>
+		<item>34.16684</item>
+		<item>38.36402</item>
+		<item>37.51816</item>
+		<item>37.531</item>
+		<item>38.451</item>
+		<item>38.16667</item>
+		<item>34.5897</item>
+		<item>37.91667</item>
+		<item>37.58218</item>
+		<item>36.77683</item>
+	</string-array>	
+		
+	
+	<string-array name="commoditiesDivisor">
+		<item>90</item>
+		<item>90</item>
+		<item>90</item>
+		<item>90</item>
+		<item>90</item>
+		<item>44</item>
+		<item>126</item>
+		<item>50</item>
+		<item>138</item>
+		<item>99</item>
+		<item>39</item>
+		<item>38</item>
+		<item>22</item>
+		<item>90</item>
+		<item>50</item>
+		<item>90</item>
+		<item>1</item>
+		<item>90</item>
+		<item>51</item>
+		<item>90</item>
+		<item>115</item>
+		<item>110</item>
+		<item>50</item>
+		<item>95</item>
+		<item>51</item>
+		<item>13</item>
+		<item>126</item>
+		<item>25</item>
+		<item>90</item>
+		<item>142</item>
+		<item>93</item>
+		<item>57</item>
+		<item>54</item>
+		<item>13</item>
+		<item>110</item>
+		<item>14</item>
+		<item>90</item>
+		<item>142</item>
+		<item>98</item>
+		<item>64</item>
+		<item>90</item>
+		<item>110</item>	    	    
+	</string-array>
+	<string-array name="commodities">
+		<item>Avocado</item>
+		<item>Beans Canadian</item>
+		<item>Beans Dolichos (Njahi)</item>
+		<item>Beans Mwitemania</item>
+		<item>Beans Rosecoco</item>
+		<item>Brinjals</item>
+		<item>Cabbages</item>
+		<item>Capsicums</item>
+		<item>Carrots</item>
+		<item>Cassava Fresh</item>
+		<item>Cauliflower</item>
+		<item>Chillies</item>
+		<item>Cooking Bananas</item>
+		<item>Cowpeas</item>
+		<item>Cucumber</item>
+		<item>Dry Maize</item>
+		<item>Eggs</item>
+		<item>Finger Millet</item>
+		<item>Fresh Peas</item>
+		<item>Green Gram</item>
+		<item>Green Maize</item>
+		<item>Groundnuts</item>
+		<item>Kales</item>
+		<item>Lemons</item>
+		<item>Lettuce</item>
+		<item>Limes</item>
+		<item>Mangoes Local</item>
+		<item>Mangoes Ngowe</item>
+		<item>Mwezi Moja</item>
+		<item>Onions Dry</item>
+		<item>Oranges</item>
+		<item>Passion Fruits</item>
+		<item>Pawpaw</item>
+		<item>Pineapples</item>
+		<item>Red Irish Potatoes</item>
+		<item>Ripe Bananas</item>
+		<item>Sorghum</item>
+		<item>Spring Onions</item>
+		<item>Sweet Potatoes</item>
+		<item>Tomatoes</item>
+		<item>Wheat</item>
+		<item>White Irish Potatoes</item>
+	</string-array>
+
+</resources>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >	    
+	<ScrollView
+	        android:id="@+id/svLocation"
+	        android:scrollbarAlwaysDrawVerticalTrack="true"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginBottom="50dp"
+	        >
+	<RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    >
+	    <!-- 
+	    <TextView
+	        android:id="@+id/txtNation"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginTop="5dp"
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="10dp" 
+	        android:text="@string/tNation"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	     <Spinner
+	        android:id="@+id/spinnerNation"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp" 
+	        android:layout_below="@+id/txtNation"       
+	        android:prompt="@string/tNation"
+	        android:entries="@array/nations"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+		-->
+	    <TextView
+	        android:id="@+id/txtCity"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"                
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="10dp" 
+	        android:layout_alignParentTop="true"	        
+	        android:text="@string/tCity"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	     
+	    <Spinner
+	        android:id="@+id/spinnerCity"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/txtCity"        
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        android:prompt="@string/tCity"        
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+		<TextView
+	        android:id="@+id/txtMarket"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"                
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="10dp" 
+	        android:layout_below="@+id/spinnerCity"
+	        android:text="@string/tMarket"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />    
+	    
+		<Spinner
+		    android:id="@+id/spinnerMarket"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@+id/txtMarket"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+		    android:prompt="@string/tMarket"	    
+		    android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+		<TextView
+	        android:id="@+id/txtVendor"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"                
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="10dp" 
+	        android:layout_below="@+id/spinnerMarket"
+	        android:text="@string/tVendor"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />    
+		
+		<Spinner
+	        android:id="@+id/spinnerVendor"   
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@+id/txtVendor"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        android:prompt="@string/tVendor"
+	        android:entries="@array/vendors"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+		<TextView
+	        android:id="@+id/txtKind"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"                
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="10dp" 
+	        android:layout_below="@+id/spinnerVendor"
+	        android:text="@string/tKind"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />    
+		
+		<Spinner
+	        android:id="@+id/spinnerKind"   
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@+id/txtKind"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        android:prompt="@string/tKind"
+	        android:entries="@array/kind"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+		<TextView
+	        android:id="@+id/txtNote"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"                
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="10dp" 
+	        android:layout_below="@+id/spinnerKind"
+	        android:text="@string/tNote"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />    
+		
+		<EditText
+	        android:id="@+id/etNote"   
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@+id/txtNote"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        android:minLines="2"
+	        android:maxLines="2"
+	        android:hint="..."        
+	        android:inputType="textMultiLine" 
+	        android:scrollbars="vertical"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	</RelativeLayout>					
+	</ScrollView>	
+		<Button
+		    android:id="@+id/btnNext1"
+		    style="@style/Widget.Sherlock.Button.Small"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentBottom="true"
+		    android:layout_alignParentLeft="true"
+		    android:background="#00aeed"
+		    android:text="NEXT"
+		    android:textAppearance="?android:attr/textAppearanceLarge" />
+</RelativeLayout>

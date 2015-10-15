@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="11dp"
+        android:textColor="@color/blue"
+        android:text="@string/txtUpdates"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+	<FrameLayout
+	    android:id="@+id/blueBar"
+	    android:layout_width="fill_parent"
+	    android:layout_height="2dip"	    
+	    android:layout_below="@+id/textSettings"
+	    android:background="@color/bluebar" >
+	</FrameLayout>
+    
+    
+    <TextView
+        android:id="@+id/txtCurVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtLatVersion"
+        android:layout_margin="2dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:text="@string/txtInstalledVer"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/txtLatVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/blueBar"
+        android:layout_margin="2dp"
+        android:layout_marginTop="7dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:text="@string/txtLatestVer"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/txtCurVerNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtCurVersion"
+        android:layout_alignRight="@+id/textSettings"
+        android:layout_alignTop="@+id/txtLatVersion"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/green" />
+
+    <TextView
+        android:id="@+id/txtLatVerNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtCurVersion"
+        android:layout_alignRight="@+id/txtCurVerNumber"
+        android:layout_below="@+id/txtCurVerNumber"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/green" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        style="@style/Widget.Sherlock.Button.Small"
+        android:background="@color/blue"
+        android:text="@string/btnUpdate" />
+
+    <TextView
+        android:id="@+id/txtAutoUpdLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtCurVersion"
+        android:layout_below="@+id/txtCurVersion"
+        android:layout_margin="2dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="2dp"
+        android:text="@string/txtAutoUpdates"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/txtAutoUpdVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtAutoUpdLabel"
+        android:layout_alignBottom="@+id/txtAutoUpdLabel"
+        android:layout_alignRight="@+id/txtLatVerNumber"
+        android:text="@string/txtOn"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/green" />
+
+    <TextView
+        android:id="@+id/txtChangeLog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtAutoUpdLabel"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"           
+        android:text="@string/txtChangeLog"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<ScrollView
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/btnUpdate"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/txtChangeLog"	    
+	    android:layout_marginLeft="7dp"
+	    android:layout_marginRight="3dp">
+
+	    <TextView
+	        android:id="@+id/txtChangeLogContent"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="2dp"
+	        android:text="TextView" />
+	</ScrollView>
+
+</RelativeLayout>

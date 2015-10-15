@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+    <RelativeLayout
+        android:id="@+id/rlContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp" >
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="2dp"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/black"
+            android:text="@string/tCommodity"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+        <View android:id="@+id/helper" 
+			android:layout_width="0dp"
+			android:layout_height="0dp" 
+			android:layout_below="@id/tvTitle"			
+			android:layout_centerHorizontal="true" />
+
+        <Spinner android:id="@+id/spCommodities"
+			android:layout_alignParentLeft="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/tvTitle" 
+			android:layout_toLeftOf="@id/helper"/>
+
+        <EditText
+            android:id="@+id/etQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/spCommodities"
+            android:layout_below="@id/tvTitle"
+            android:layout_toLeftOf="@+id/spMeasurements"
+            android:layout_toRightOf="@id/helper"
+            android:ems="10"
+            android:hint="@string/tQuantity"
+            android:inputType="number" >
+	
+        </EditText>
+
+        <EditText android:id="@+id/etPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/spCurrency"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/spCommodities"
+            android:inputType="number"
+            android:layout_toLeftOf="@+id/etQuantity"
+            android:hint="@string/tPrice"
+            android:ems="10" >
+            <requestFocus />
+        </EditText>
+
+        <Spinner android:id="@+id/spMeasurements"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_above="@+id/spCurrency"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/etQuantity" />
+
+        <Spinner android:id="@+id/spCurrency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spCommodities"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/etPrice" />
+
+        <Spinner
+            android:id="@+id/spVariety"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/etPrice" />
+
+    </RelativeLayout>
+</merge> 

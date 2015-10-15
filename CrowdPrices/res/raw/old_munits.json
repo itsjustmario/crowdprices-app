@@ -1,0 +1,24 @@
+{
+	"Measurements":[
+		{
+			"munitID":"0",
+			"munitName":"kg",
+			"munitShown":true
+		},
+		{
+			"munitID":"1",
+			"munitName":"Cup",
+			"munitShown":true
+		},
+		{
+			"munitID":"2",
+			"munitName":"Sack",
+			"munitShown":true
+		},
+		{
+			"munitID":"3",
+			"munitName":"Bag",
+			"munitShown":true
+		}
+	]
+}

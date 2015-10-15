@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Libs/ActionbarSherlock/ActionbarSherlock.iml" filepath="$PROJECT_DIR$/../Libs/ActionbarSherlock/ActionbarSherlock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Libs/AppMsg/AppMsg.iml" filepath="$PROJECT_DIR$/../Libs/AppMsg/AppMsg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CrowdSplash.iml" filepath="$PROJECT_DIR$/CrowdSplash.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Libs/RibbonMenu/RibbonMenu.iml" filepath="$PROJECT_DIR$/../Libs/RibbonMenu/RibbonMenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Libs/ViewPagerIndicator/ViewPagerIndicator.iml" filepath="$PROJECT_DIR$/../Libs/ViewPagerIndicator/ViewPagerIndicator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Libs/MenuDrawer/menudrawer.iml" filepath="$PROJECT_DIR$/../Libs/MenuDrawer/menudrawer.iml" />
+    </modules>
+  </component>
+</project>
+

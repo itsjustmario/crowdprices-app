@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:requiresFadingEdge="vertical" >
+
+    <ImageView
+        android:id="@+id/imageLogo_menu"
+        android:layout_width="170dip"
+        android:layout_height="90dip"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo_menu" />
+
+    <ImageView
+        android:id="@+id/fenixMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:src="@drawable/fenix_logo_menu" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fenixMenu"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageLogo_menu"
+        android:verticalScrollbarPosition="left" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:id="@+id/textLogout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/textNotification"
+                android:text="@string/submenu_logout"
+                android:textColor="@color/black"
+                android:textSize="22dp" />
+
+            <View
+                android:id="@+id/lineLogout"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textLogout"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/darkgray" />
+
+            <TextView
+                android:id="@+id/textNotification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignRight="@+id/textLicense"
+                android:layout_below="@+id/lineLogout"
+                android:text="@string/submenu_notification"
+                android:textColor="@color/black"
+                android:textSize="22dp" />
+
+            <View
+                android:id="@+id/lineNotification"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textNotification"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/darkgray" />
+
+            <TextView
+                android:id="@+id/textUpdates"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignRight="@+id/textUserManual"
+                android:layout_below="@+id/lineNotification"
+                android:text="@string/submenu_updates"
+                android:textColor="@color/black"
+                android:textSize="22dp" />
+
+            <ImageButton
+                android:id="@+id/imageUpdates"
+                android:layout_width="25dip"
+                android:layout_height="25dip"
+                android:layout_alignBottom="@+id/textUpdates"
+                android:layout_alignParentRight="true"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/languages_ico" />
+
+            <ImageButton
+                android:id="@+id/imageNotification"
+                android:layout_width="25dip"
+                android:layout_height="25dip"
+                android:layout_alignBottom="@+id/textNotification"
+                android:layout_alignParentRight="true"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/notification_ico" />
+
+            <View
+                android:id="@+id/lineLanguages"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textUpdates"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/darkgray" />
+
+            <ImageButton
+                android:id="@+id/imageLogout"
+                android:layout_width="25dip"
+                android:layout_height="25dip"
+                android:layout_alignBottom="@+id/textLogout"
+                android:layout_alignRight="@+id/lineLogout"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/logout_ico" />
+     
+	        <TextView
+	            android:id="@+id/textLicense"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_alignRight="@+id/textSettings"
+	            android:layout_below="@+id/lineLanguages"
+	            android:text="@string/submenu_license"
+	            android:textColor="@color/black"
+	            android:textSize="22dp" />
+	        
+	        <ImageButton
+	            android:id="@+id/imageLicense"
+	            android:layout_width="25dip"
+	            android:layout_height="25dip"
+                android:layout_alignBottom="@+id/textLicense"
+                android:layout_alignRight="@+id/lineLanguages"
+	            android:background="@android:color/transparent"
+	            android:scaleType="fitCenter"
+	            android:src="@drawable/license" />
+	        	        
+
+	        <View
+	            android:id="@+id/lineLicense"
+	            android:layout_width="match_parent"
+	            android:layout_height="1dp"
+	            android:layout_alignParentLeft="true"
+	            android:layout_below="@+id/textLicense"
+	            android:background="@color/darkgray" 
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                />	        
+	        
+	        <TextView
+	            android:id="@+id/textSettings"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_below="@+id/lineLicense"
+	            android:layout_toLeftOf="@+id/imageSettings"
+	            android:text="@string/submenu_settings"
+	            android:textColor="@color/black"
+	            android:textSize="22dp" />
+
+	        <ImageButton
+	            android:id="@+id/imageSettings"
+	            android:layout_width="25dip"
+	            android:layout_height="25dip"
+	            android:layout_alignParentRight="true"
+	            android:layout_below="@+id/lineLicense"
+	            android:background="@android:color/transparent"
+	            android:scaleType="fitCenter"
+	            android:src="@drawable/settings2" />
+	        	        	        
+	        <View
+	            android:id="@+id/lineSettings"
+	            android:layout_width="match_parent"
+	            android:layout_height="1dp"
+	            android:layout_alignParentLeft="true"
+	            android:layout_below="@+id/imageSettings"
+	            android:background="@color/darkgray"
+                android:layout_marginBottom="80dp"
+                android:layout_marginTop="3dp"
+                />
+	        
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

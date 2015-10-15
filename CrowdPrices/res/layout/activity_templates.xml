@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:id="@+id/llTemplates"
+    tools:context=".CrowdMain" >
+
+    <!--
+         The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc.
+    -->
+
+    <ScrollView
+        android:id="@+id/svTemplates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnUpdateTemplate"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtDefaultTemplates"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tDefaultTemplate"
+                android:gravity="center"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="7dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <Spinner
+                android:id="@+id/spCurrency"
+                android:prompt="@string/tCurrency"                
+                android:entries="@array/currency"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textAppearance="?android:attr/textAppearanceSmall" 
+                android:layout_marginTop="5dp" />
+
+            <Spinner
+                android:id="@+id/spMeasurement"
+                android:prompt="@string/tMunit"
+                android:entries="@array/munit"                
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="5dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_marginTop="5dp" />
+
+            <org.faostat.crowdprices.ui.MultiSpinner
+                android:id="@+id/msCommodities"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" />
+
+            <org.faostat.crowdprices.ui.MultiSpinner
+                android:id="@+id/msCities"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" />
+
+            <org.faostat.crowdprices.ui.MultiSpinner
+                android:id="@+id/msMarkets"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" />
+
+            <org.faostat.crowdprices.ui.MultiSpinner
+                android:id="@+id/msVendors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnUpdateTemplate"
+        style="@style/Widget.Sherlock.Button.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/light_blue"
+        android:text="@string/btnUpdate"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+ 
+</RelativeLayout>

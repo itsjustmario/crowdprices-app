@@ -1,0 +1,45 @@
+<resources>
+
+    <color name="black_overlay">#66ffffff</color>
+	<color name="action_bar">#ff0d0d0d</color>
+	<color name="white">#ffffffff</color>
+	<color name="oriGreen">#ff40FE1A</color>
+	<color name="green">#FFA4C739</color>
+	<color name="black">#FF444444</color>
+	<color name="blue">#FF00aeed</color>
+	<color name="red">#ffFE4534</color>
+	<color name="gray">#FFCCCCCC</color>
+	<color name="orange">#fffb8521</color>
+	<color name="off_white">#99ffffff</color>
+	<color name="light_blue">#FF3499FE</color>
+	<color name="bluebar">#38c0f4</color>
+	<color name="nullbar">#e1ddcf</color>
+	<color name="graybar">#999999</color>
+	<color name="sand">#FFe8e5da</color>
+	<color name="androidgreen">#FFA4C739</color>
+	<color name="blue_lvl1">#005e80</color>
+	<color name="blue_lvl2">#0089ba</color>
+	<color name="blue_lvl3">#00aeed</color>
+	<color name="blue_lvl4">#00dffe</color>
+	<color name="blue_lvl5">#005e80</color>
+	
+	<color name="darkgray">#d4d4d4</color>
+	
+	<color name="f_action_bar">#FF7AAF51</color>
+	<color name="f_blue">#30827F</color>
+	<color name="f_bluebar">#FF30827F</color>
+	<color name="f_sand">#FFe8deda</color>
+	
+	<color name="ahm_bluebar">#FFAB1636</color>
+	
+	<!-- Text sizes -->
+	<dimen name="text_size_small">14.0sp</dimen>
+	<dimen name="text_size_medium">16.0sp</dimen>
+	
+	<!-- ActionBar color strip -->
+	<dimen name="colorstrip">5dp</dimen>	
+	
+	<color name="text_tab_selected">#FF0000</color>
+    <color name="text_tab_unselected">#00FF00</color>
+	
+</resources>

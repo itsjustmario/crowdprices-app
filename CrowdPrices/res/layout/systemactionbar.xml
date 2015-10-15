@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="45dip"
+    android:background="@color/white"
+    android:enabled="false"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/action_bar_settings"
+        style="@style/SystemActionBarButton"
+        android:background="@drawable/settings" />
+
+    <FrameLayout
+        android:id="@+id/blueBar"
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/bluebar" >
+    </FrameLayout>
+	
+	<FrameLayout
+        android:id="@+id/nullBar"
+        android:layout_width="1dip"
+        android:layout_height="30dip"
+        android:layout_centerVertical="true"        
+        android:layout_alignParentRight="true"    
+        android:background="@color/nullbar" >
+    </FrameLayout>    
+    
+    <Button
+        android:id="@+id/action_bar_gps"
+        style="@style/SystemActionBarButton"
+        android:layout_above="@+id/blueBar"
+		android:layout_toLeftOf="@+id/nullBar"             
+        android:background="@drawable/gps"
+        android:visibility="invisible"
+        />    
+
+	<FrameLayout
+        android:id="@+id/grayBar"
+        android:layout_width="1dip"
+        android:layout_height="30dip"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="3dp"
+        android:visibility="invisible"        
+        android:layout_toLeftOf="@+id/action_bar_gps"
+        android:background="@color/darkgray" >
+    </FrameLayout>    
+    
+    <Button
+        android:id="@+id/action_bar_notification"
+        style="@style/SystemActionBarButton"
+        android:layout_alignParentTop="true"        
+        android:layout_marginTop="0dp"
+        android:paddingTop="0dp"
+        android:padding="0dp"
+        android:textStyle="bold"        
+        
+        android:layout_toLeftOf="@+id/nullBar"
+        android:background="@drawable/notification_circle" />
+
+</RelativeLayout>
